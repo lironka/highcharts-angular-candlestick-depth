@@ -46,15 +46,9 @@ export class ChartStockComponent implements OnInit {
   constructor(private chartStockService: ChartStockService) {}
 
   ngOnInit() {
-    // console.log(candleDate);
-    // console.log(candleOptions);
     this.chartStockService.getCandleData().subscribe(data => {
       this.setChart(data);
     });
-    //   this.Highcharts.charts[0].addSeries({
-    //     type: 'column',
-    //     data: [1, 2, 3, 4, 5]
-    // } as Highcharts.SeriesColumnOptions);
   }
 
   setChart(chartDate) {

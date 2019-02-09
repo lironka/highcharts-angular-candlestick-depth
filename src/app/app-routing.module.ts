@@ -10,6 +10,10 @@ const routes: Routes = [
   {
     path: 'chart',
     loadChildren: './chart-stock/chart-stock.module#ChartStockModule'
+  },
+  {
+    path: 'depth',
+    loadChildren: './depth-chart/depth-chart.module#DepthChartModule'
   }
 ];
 

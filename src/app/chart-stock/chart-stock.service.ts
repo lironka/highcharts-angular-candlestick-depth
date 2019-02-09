@@ -10,4 +10,8 @@ export class ChartStockService {
   getCandleData() {
     return this.http.get('./assets/data/aapl-ohlcv.json');
   }
+
+  getDepthData() {
+    return this.http.get('./assets/data/depth.json');
+  }
 }
