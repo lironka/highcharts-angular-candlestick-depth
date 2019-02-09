@@ -1,6 +1,9 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>Welcome to {{ title }}!</h1>
+<div class="text-center">
+  <h1>Welcome to {{ title }}</h1>
 </div>
-
+<nav class="text-center">
+  <a routerLink="/both" routerLinkActive="active">both</a>
+  <a routerLink="/chart" routerLinkActive="active">chart</a>
+  <a routerLink="/depth" routerLinkActive="active">depth</a>
+</nav>
 <router-outlet></router-outlet>

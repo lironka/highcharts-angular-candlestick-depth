@@ -1,6 +1,11 @@
-# HighchartsAngularExample
+# Example Highcharts CandleStick and Depth charts in Angular
 
-High Stok with StockTools
+Example of:
+
+1. Highstok CandleStick chart with StockTools and color Valume
+2. Highstok Depth chart with StockTools
+3. connection at the same time of two charts on the page
+4. usage Lazyloading with chart.
 
 ---
 
@@ -17,15 +22,3 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ChartDepthComponent } from './chart-depth/chart-depth.component';
+import { DepthPageComponent } from './depth-page.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: ChartDepthComponent
+    component: DepthPageComponent
   }
 ];
 
@@ -13,4 +13,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class DepthChartRoutingModule {}
+export class DepthPageRoutingModule {}

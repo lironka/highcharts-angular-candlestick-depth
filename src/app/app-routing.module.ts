@@ -1,19 +1,25 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { BothChartComponent } from './both-chart/both-chart.component';
+import { MarketPageComponent } from './market-page/market-page.component';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/chart',
+    redirectTo: '/both',
     pathMatch: 'full'
   },
   {
+    path: 'both',
+    component: BothChartComponent
+  },
+  {
     path: 'chart',
-    loadChildren: './chart-stock/chart-stock.module#ChartStockModule'
+    component: MarketPageComponent
   },
   {
     path: 'depth',
-    loadChildren: './depth-chart/depth-chart.module#DepthChartModule'
+    loadChildren: './depth-page/depth-page.module#DepthPageModule'
   }
 ];
 
