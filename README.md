@@ -7,6 +7,10 @@ Example of:
 3. Connection at the same time of two charts on the page
 4. Usage Lazyloading with chart.
 
+## Demo
+
+[Demo Example Highcharts CandleStick and Depth charts in Angular](https://lironka.github.io/highcharts-angular-candlestick-depth/)
+
 ---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
