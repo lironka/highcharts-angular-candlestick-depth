@@ -2,10 +2,10 @@
 
 Example of:
 
-1. Highstok CandleStick chart with StockTools and color Valume
-2. Highstok Depth chart with StockTools
-3. connection at the same time of two charts on the page
-4. usage Lazyloading with chart.
+1. Highcharts CandleStick chart with StockTools and color Volume
+2. Highcharts Depth chart
+3. Connection at the same time of two charts on the page
+4. Usage Lazyloading with chart.
 
 ---
 

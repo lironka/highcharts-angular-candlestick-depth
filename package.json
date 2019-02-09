@@ -1,6 +1,6 @@
 {
   "name": "highcharts-angular-candlestick-depth",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Example Highcharts CandleStick and Depth charts in Angular 7",
   "keywords": [
     "Highcharts",
@@ -9,6 +9,7 @@
     "Depth chart",
     "color volume"
   ],
+  "author": "Olga Kramarchuk <oflops@gmail.com>",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
